@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar";
-import Profiles from "../components/profileBar";
+import { rubik_normal } from "./font";
+
 import "./globals.css";
 
 export const metadata = {
@@ -10,9 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`antialiased`}>
+      <body className={`antialiased bg-[#353353] text-white ${rubik_normal.className}`}>
         <Navbar></Navbar>
-        <Profiles></Profiles>
         {children}
       </body>
     </html>
