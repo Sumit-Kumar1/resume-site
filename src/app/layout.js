@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar";
 import { rubik_normal } from "./font";
-import { SpeedInsights } from '@vercel/speed-insights/next';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "./globals.css";
 
@@ -12,7 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`antialiased dark:bg-[#353353] dark:text-white ${rubik_normal.className}`}>
+      <body
+        className={`antialiased dark:bg-[#353353] dark:text-white bg-[#f8f9fa] ${rubik_normal.className}`}
+      >
         <Navbar></Navbar>
         {children}
         <SpeedInsights />
