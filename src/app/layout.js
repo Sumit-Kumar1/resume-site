@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`antialiased dark:bg-[#353353] dark:text-white bg-[#f8f9fa] ${rubik_normal.className}`}
+        className={`antialiased dark:bg-[#353353] dark:text-white bg-[#f3f3f9] ${rubik_normal.className}`}
       >
         <Navbar></Navbar>
         {children}
