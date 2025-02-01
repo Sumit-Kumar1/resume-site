@@ -28,10 +28,10 @@ export default function Intro() {
       className="flex flex-col bg-[#353353] max-w-full items-center justify-center h-screen text-white"
     >
       <Image
-        src="https://jthemes.net/themes/html/bolby/demo/images/avatar-1.svg"
-        className="mb-4"
+        src="/images/animated.png"
+        className=""
         alt="avatar"
-        width={100}
+        width={250}
         height={100}
       ></Image>
       <div className="text-center">
@@ -57,9 +57,13 @@ export default function Intro() {
           </span>
         </p>
         <Profiles></Profiles>
-        <button className="btn bg-[#FF4C60] text-white rounded-lg border-0 mt-3 hover:text-[#FF4C60]">
+        <a
+          className="btn bg-[#FF4C60] text-white rounded-lg border-0 mt-3 hover:text-[#FF4C60]"
+          href="/document/Resume-Sumit-Kumar.pdf"
+          target="_blank"
+        >
           View My Resume
-        </button>
+        </a>
       </div>
     </section>
   );

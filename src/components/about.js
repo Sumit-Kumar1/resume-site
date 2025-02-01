@@ -10,26 +10,32 @@ export default function AboutMe() {
           <div className="flex flex-row gap-2 items-center">
             <div className="mr-5">
               <Image
-                src="https://jthemes.net/themes/html/bolby/demo/images/avatar-2.svg"
+                src="/images/animated.png"
+                className="bg-[#5E5C7F] rounded-full"
                 alt="avatar-2"
-                width={250}
+                width={400}
                 height={250}
               />
             </div>
             <div className="divider"></div>
           </div>
 
-          <div className="rounded-xl shadow-xl">
+          <div className="rounded-xl shadow-xl shadow-gray-300">
             <div className="rounded p-[30px]">
-              <div className="flex flex-row gap-5 px-15">
-                <div className="m-3 flex flex-col gap-2 w-2/3">
+              <div className="flex flex-row gap-5 px-15 h-full">
+                <div className="m-3 flex flex-col gap-2 w-2/3 text-justify">
                   <p>
                     I am Sumit Kumar, backend developer from Rajasthan, India. I
                     have rich experience in backend development with golang and
-                    postgres SQL.
+                    postgres SQL. I am also a machine learning enthusiast and a
+                    game developer.
                   </p>
                   <div className="mt-5">
-                    <a href="#" className="btn btn-error text-white">
+                    <a
+                      href="/document/Resume-Sumit-Kumar.pdf"
+                      target="_blank"
+                      className="btn btn-error text-white"
+                    >
                       Download CV
                     </a>
                   </div>
@@ -39,7 +45,7 @@ export default function AboutMe() {
                   <div className="flex flex-col gap-5">
                     <div className="flex flex-col gap-3">
                       <div className="flex flex-row justify-between">
-                        <h4 className="font-bold">Software Development</h4>
+                        <h4 className="font-bold">Backend API Development</h4>
                         <span>85%</span>
                       </div>
                       <progress
@@ -51,11 +57,11 @@ export default function AboutMe() {
 
                     <div className="flex flex-col gap-3">
                       <div className="flex flex-row justify-between">
-                        <h4 className="font-bold">API Development</h4>
-                        <span>85%</span>
+                        <h4 className="font-bold">Machine Learning</h4>
+                        <span>74%</span>
                       </div>
                       <progress
-                        value="95"
+                        value="74"
                         max="100"
                         className="progress progress-error"
                       ></progress>
@@ -64,7 +70,18 @@ export default function AboutMe() {
                     <div className="flex flex-col gap-3">
                       <div className="flex flex-row justify-between">
                         <h4 className="font-bold">Full Stack Development</h4>
-                        <span>70%</span>
+                        <span>75%</span>
+                      </div>
+                      <progress
+                        value="75"
+                        max="100"
+                        className="progress progress-primary"
+                      ></progress>
+                    </div>
+                    <div className="flex flex-col gap-3">
+                      <div className="flex flex-row justify-between">
+                        <h4 className="font-bold">Game Development</h4>
+                        <span>75%</span>
                       </div>
                       <progress
                         value="75"
