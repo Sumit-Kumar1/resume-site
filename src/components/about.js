@@ -1,121 +1,106 @@
 import Image from "next/image";
 
 export default function AboutMe() {
-    return (
-        <section id="about bg-white">
-            <div className="container">
-                <h2 className="section-title wow fadeInUp">About Me</h2>
-                <div className="divider"></div>
-                <div className="row">
-                    <div className="col-md-3">
-                        <div className="text-center text-md-left">
-                            <Image src="https://jthemes.net/themes/html/bolby/demo/images/avatar-2.svg" alt="sumit" />
-                        </div>
-                        <div className="divider"></div>
-                    </div>
-
-                    <div className="col-md-9 triangle-left-md triangle-top-sm">
-                        <div className="rounded shadow-dark padding-30">
-                            <div className="row">
-                                <div className="col-md-6">
-                                    <p>I am Sumit Kumar, backend developer from Rajasthan, India. I have rich experience in backend development with golang and postgres SQL</p>
-                                    <div className="mt-3">
-                                        <a href="#" className="btn btn-default">Download CV</a>
-                                    </div>
-                                    <div className="spacer d-md-none d-lg-none h-[30px]"></div>
-                                </div>
-                                <div className="col-md-6">
-                                    <div className="skill-item">
-                                        <div className="skill-info clearfix">
-                                            <h4 className="float-left mb-3 mt-0">Development</h4>
-                                            <span className="float-right">85%</span>
-                                        </div>
-                                        <div className="progress">
-                                            <div className="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85" data-color="#FFD15C" >
-                                            </div>
-                                        </div>
-                                        <div className="spacer h-[20px]"></div>
-                                    </div>
-                                    <div className="skill-item">
-                                        <div className="skill-info clearfix">
-                                            <h4 className="float-left mb-3 mt-0">UI/UX design</h4>
-                                            <span className="float-right">95%</span>
-                                        </div>
-                                        <div className="progress">
-                                            <div className="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="95" data-color="#FF4C60">
-                                            </div>
-                                        </div>
-                                        <div className="spacer h-20px"></div>
-                                    </div>
-                                    <div className="skill-item">
-                                        <div className="skill-info clearfix">
-                                            <h4 className="float-left mb-3 mt-0">Photography</h4>
-                                            <span className="float-right">70%</span>
-                                        </div>
-                                        <div className="progress">
-                                            <div className="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70" data-color="#6C6CE5">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div className="spacer h-70px"></div>
-
-                <div className="row">
-
-                    <div className="col-md-3 col-sm-6">
-                        <div className="fact-item">
-                            <span className="icon icon-fire"></span>
-                            <div className="details">
-                                <h3 className="mb-0 mt-0 number"><em className="count">198</em></h3>
-                                <p className="mb-0">Projects completed</p>
-                            </div>
-                        </div>
-                        <div className="spacer d-md-none d-lg-none h-30px"></div>
-                    </div>
-
-                    <div className="col-md-3 col-sm-6">
-
-                        <div className="fact-item">
-                            <span className="icon icon-cup"></span>
-                            <div className="details">
-                                <h3 className="mb-0 mt-0 number">5670</h3>
-                                <p className="mb-0">Cup of coffee</p>
-                            </div>
-                        </div>
-                        <div className="spacer d-md-none d-lg-none h-30px"></div>
-                    </div>
-
-                    <div className="col-md-3 col-sm-6">
-
-                        <div className="fact-item">
-                            <span className="icon icon-people"></span>
-                            <div className="details">
-                                <h3 className="mb-0 mt-0 number">427</h3>
-                                <p className="mb-0">Satisfied clients</p>
-                            </div>
-                        </div>
-                        <div className="spacer d-md-none d-lg-none h-[30px]"></div>
-                    </div>
-
-                    <div className="col-md-3 col-sm-6">
-                        <div className="fact-item">
-                            <span className="icon icon-badge"></span>
-                            <div className="details">
-                                <h3 className="mb-0 mt-0 number">35</h3>
-                                <p className="mb-0">Nominees winner</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
+  return (
+    <section id="about" className="dark:bg-[#353353] px-64 py-20">
+      <div className="">
+        <h2 className="text-4xl font-bold text-[#5E5C7F]">About Me</h2>
+        <div className="divider"></div>
+        <div className="flex flex-row gap-2">
+          <div className="flex flex-row gap-2 items-center">
+            <div className="mr-5">
+              <Image
+                src="https://jthemes.net/themes/html/bolby/demo/images/avatar-2.svg"
+                alt="avatar-2"
+                width={250}
+                height={250}
+              />
             </div>
+            <div className="divider"></div>
+          </div>
 
-        </section>
-    )
+          <div className="rounded-xl shadow-xl">
+            <div className="rounded p-[30px]">
+              <div className="flex flex-row gap-5 px-15">
+                <div className="m-3 flex flex-col gap-2 w-2/3">
+                  <p>
+                    I am Sumit Kumar, backend developer from Rajasthan, India. I
+                    have rich experience in backend development with golang and
+                    postgres SQL.
+                  </p>
+                  <div className="mt-5">
+                    <a href="#" className="btn btn-error text-white">
+                      Download CV
+                    </a>
+                  </div>
+                </div>
+                <div className="divider"></div>
+                <div className="w-full">
+                  <div className="flex flex-col gap-5">
+                    <div className="flex flex-col gap-3">
+                      <div className="flex flex-row justify-between">
+                        <h4 className="font-bold">Software Development</h4>
+                        <span>85%</span>
+                      </div>
+                      <progress
+                        value="85"
+                        max="100"
+                        className="progress progress-warning"
+                      ></progress>
+                    </div>
+
+                    <div className="flex flex-col gap-3">
+                      <div className="flex flex-row justify-between">
+                        <h4 className="font-bold">API Development</h4>
+                        <span>85%</span>
+                      </div>
+                      <progress
+                        value="95"
+                        max="100"
+                        className="progress progress-error"
+                      ></progress>
+                    </div>
+
+                    <div className="flex flex-col gap-3">
+                      <div className="flex flex-row justify-between">
+                        <h4 className="font-bold">Full Stack Development</h4>
+                        <span>70%</span>
+                      </div>
+                      <progress
+                        value="75"
+                        max="100"
+                        className="progress progress-accent"
+                      ></progress>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="stats stats-vertical lg:stats-horizontal shadow-2xl mt-10 text-center w-full">
+        <div className="stat">
+          <div className="stat-title">Highest Education (B.Tech)</div>
+          <div className="stat-value">8.9</div>
+          <div className="stat-desc">
+            Jaypee University of Information Technology, Solan
+          </div>
+        </div>
+
+        <div className="stat">
+          <div className="stat-title">Projects Completed</div>
+          <div className="stat-value">6</div>
+          <div className="stat-desc">All projects are self-made</div>
+        </div>
+
+        <div className="stat">
+          <div className="stat-title">Professional Experience</div>
+          <div className="stat-value">1.5</div>
+          <div className="stat-desc">(excluding internship)</div>
+        </div>
+      </div>
+    </section>
+  );
 }
