@@ -1,16 +1,15 @@
 export default function AboutMe() {
     return (
-        <section id="about bg-[#353353]">
+        <section id="about bg-white">
             <div className="container">
                 <h2 className="section-title wow fadeInUp">About Me</h2>
-
-                <div className="spacer h-60px"></div>
+                <div className="divider"></div>
                 <div className="row">
                     <div className="col-md-3">
                         <div className="text-center text-md-left">
-                            <img src="https://jthemes.net/themes/html/bolby/demo/images/avatar-2.svg" alt="sumit"/>
+                            <img src="https://jthemes.net/themes/html/bolby/demo/images/avatar-2.svg" alt="sumit" />
                         </div>
-                        <div className="spacer d-md-none d-lg-none h-30px"></div>
+                        <div className="divider"></div>
                     </div>
 
                     <div className="col-md-9 triangle-left-md triangle-top-sm">

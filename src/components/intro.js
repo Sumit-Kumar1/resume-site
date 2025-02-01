@@ -20,7 +20,7 @@ export default function Intro() {
     }, [phrases.length]);
 
     return (
-        <section id="intro" className="flex flex-col bg-[#353353] max-w-full items-center justify-center h-screen">
+        <section id="intro" className="flex flex-col bg-[#353353] max-w-full items-center justify-center h-screen text-white">
             <img src="https://jthemes.net/themes/html/bolby/demo/images/avatar-1.svg" className="mb-4"></img>
             <div className="text-center">
                 <h1 className="mb-2 text-4xl font-bold">Sumit Kumar</h1>
