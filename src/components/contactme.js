@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function ContactMe() {
   return (
     <section id="contact" className="dark:bg-[#353353] px-64 py-20">
-      <h2 className="text-4xl font-bold text-[#454360]">Contact Me</h2>
+      <h2 className="text-4xl font-bold text-[#454360] dark:text-white">Contact Me</h2>
       <div className="divider"></div>
       <div className="flex flex-row gap-5">
-        <div className="flex flex-col gap-3 text-[#454360]">
+        <div className="flex flex-col gap-3 text-[#454360] dark:text-white">
           <p className="font-bold text-2xl">Let&apos;s talk about anything!!</p>
           <p>
             Don&apos;t like forms? Send me an{" "}

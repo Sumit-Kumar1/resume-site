@@ -1,11 +1,11 @@
 export default function Experience() {
   return (
     <section id="experience" className="dark:bg-[#353353] px-64 py-20">
-      <h2 className="text-4xl font-bold text-[#454360]">Experience</h2>
+      <h2 className="text-4xl font-bold text-[#454360] dark:text-white">Experience</h2>
       <div className="divider"></div>
 
       <div className="flex flex-row gap-10">
-        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical border p-[30px] rounded-xl bg-white shadow-xl w-[50%] justify-evenly">
+        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical border p-[30px] rounded-xl bg-white dark:bg-[#302f4e] shadow-2xl shadow-[#00000040] w-[50%] justify-evenly">
           <li>
             <div className="timeline-middle">
               <svg
@@ -23,7 +23,7 @@ export default function Experience() {
             </div>
             <div className="timeline-start mb-10 md:text-end">
               <time className="text-[#8B88B1] text-sm">Aug 2023 - Present</time>
-              <div className="text-md font-black text-[#454360]">
+              <div className="text-md font-black text-[#454360] dark:text-white">
                 Backend Developer
               </div>
             </div>
@@ -55,7 +55,7 @@ export default function Experience() {
               <time className="text-[#8B88B1] text-sm">
                 Feb 2023 - Aug 2023
               </time>
-              <div className="text-lg font-black text-[#454360]">
+              <div className="text-lg font-black text-[#454360] dark:text-white">
                 Software Engineer Intern
               </div>
             </div>
@@ -86,7 +86,7 @@ export default function Experience() {
               <time className="text-[#8B88B1] text-sm">
                 Apr 2022 - Feb 2023
               </time>
-              <div className="text-lg font-black text-[#454360]">
+              <div className="text-lg font-black text-[#454360] dark:text-white">
                 Intern at Venom Game Studios
               </div>
             </div>
@@ -100,7 +100,7 @@ export default function Experience() {
           </li>
         </ul>
 
-        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical border p-[30px] rounded-xl bg-white shadow-xl w-[50%] justify-evenly">
+        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical border p-[30px] rounded-xl bg-white dark:bg-[#302f4e] shadow-2xl shadow-[#00000040] w-[50%] justify-evenly">
           <li>
             <div className="timeline-middle">
               <svg
@@ -120,7 +120,7 @@ export default function Experience() {
               <time className="text-[#8B88B1] text-sm">
                 Jul 2022 - Aug 2022
               </time>
-              <div className="text-lg font-black text-[#454360]">
+              <div className="text-lg font-black text-[#454360] dark:text-white">
                 Amazon ML Summer School Intern
               </div>
             </div>
@@ -152,7 +152,7 @@ export default function Experience() {
               <time className="text-[#8B88B1] text-sm">
                 Aug 2019 - Feb 2023
               </time>
-              <div className="text-lg font-black text-[#454360]">
+              <div className="text-lg font-black text-[#454360] dark:text-white">
                 ACM Student Chapter, JUIT Solan
               </div>
             </div>
@@ -183,7 +183,7 @@ export default function Experience() {
               <time className="text-[#8B88B1] text-sm">
                 Sep 2019 - Feb 2023
               </time>
-              <div className="text-lg font-black text-[#454360]">
+              <div className="text-lg font-black text-[#454360] dark:text-white">
                 Member of Omega Leo Club, JUIT Solan
               </div>
             </div>

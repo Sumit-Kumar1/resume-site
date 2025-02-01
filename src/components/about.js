@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <section id="about" className="dark:bg-[#353353] px-64 py-20">
       <div className="">
-        <h2 className="text-4xl font-bold text-[#454360]">About Me</h2>
+        <h2 className="text-4xl font-bold text-[#454360] dark:text-white">About Me</h2>
         <div className="divider"></div>
         <div className="flex flex-row gap-2">
           <div className="flex flex-row gap-2 items-center">
@@ -20,7 +20,7 @@ export default function AboutMe() {
             <div className="divider"></div>
           </div>
 
-          <div className="rounded-xl shadow-xl shadow-gray-300">
+          <div className="rounded-xl shadow-2xl shadow-[#00000040] dark:bg-[#302f4e]">
             <div className="rounded p-[30px]">
               <div className="flex flex-row gap-5 px-15 h-full">
                 <div className="m-3 flex flex-col gap-2 w-2/3 text-justify">
@@ -97,7 +97,7 @@ export default function AboutMe() {
         </div>
       </div>
 
-      <div className="stats stats-vertical lg:stats-horizontal shadow-2xl mt-10 text-center w-full">
+      <div className="stats stats-vertical lg:stats-horizontal shadow-2xl mt-10 text-center w-full dark:bg-[#302f4e] dark:text-white">
         <div className="stat">
           <div className="stat-title">Highest Education (B.Tech)</div>
           <div className="stat-value">8.9</div>
