@@ -28,7 +28,11 @@ export default function Experience() {
               </div>
             </div>
             <div className="timeline-end md:mt-6 text-sm text-start px-1">
-              <p>Developed and maintaining RESTful APIs using Golang and PostgreSQL for <span className="text-warning font-bold">Kroger</span> Company.</p>
+              <p>
+                Developed and maintaining RESTful APIs using Golang and
+                PostgreSQL for{" "}
+                <span className="text-warning font-bold">Kroger</span> Company.
+              </p>
             </div>
             <hr />
           </li>
@@ -56,7 +60,10 @@ export default function Experience() {
               </div>
             </div>
             <div className="timeline-content md:mt-32 text-sm text-end px-1">
-             <p>Learned about Golang and various tools and techs and worked on ZopSmart Technologies Internal products.</p>
+              <p>
+                Learned about Golang and various tools and techs and worked on
+                ZopSmart Technologies Internal products.
+              </p>
             </div>
             <hr />
           </li>
@@ -84,7 +91,10 @@ export default function Experience() {
               </div>
             </div>
             <div className="timeline-end md:mt-6 text-sm text-start px-1">
-             <p>Worked on a project using Unity game engine and contributed to a game Chor-Police (hide and seek game).</p>
+              <p>
+                Worked on a project using Unity game engine and contributed to a
+                game Chor-Police (hide and seek game).
+              </p>
             </div>
             <hr />
           </li>
@@ -114,8 +124,12 @@ export default function Experience() {
                 Amazon ML Summer School Intern
               </div>
             </div>
-            <div className="timeline-end md:mt-6 text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+            <div className="timeline-end md:mt-6 text-sm text-start px-1">
+              <p>
+                Passed Amazon ML Summer School and got selected for the
+                internship. Learn about key concepts of Machine Learning and
+                Deep Learning.
+              </p>
             </div>
             <hr />
           </li>
@@ -142,6 +156,12 @@ export default function Experience() {
                 ACM Student Chapter, JUIT Solan
               </div>
             </div>
+            <div className="timeline-content md:mt-32 text-sm text-end px-1">
+              <p>
+                Worked as a member of ACM Student Chapter, JUIT Solan and Served
+                as Game Dev Head.
+              </p>
+            </div>
             <hr />
           </li>
           <li>
@@ -167,7 +187,14 @@ export default function Experience() {
                 Member of Omega Leo Club, JUIT Solan
               </div>
             </div>
-            <hr/>
+            <div className="timeline-end md:mt-8 text-sm text-start px-1">
+              <p>
+                Worked as a member of Omega Leo Club, JUIT Solan and helped in
+                organizing various events like Blood Donation Camp, Tree
+                Plantation Drive, etc.
+              </p>
+            </div>
+            <hr />
           </li>
         </ul>
       </div>
