@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar";
 import { rubik_normal } from "./font";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import "./globals.css";
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <body className={`antialiased dark:bg-[#353353] dark:text-white ${rubik_normal.className}`}>
         <Navbar></Navbar>
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
