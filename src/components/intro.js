@@ -6,16 +6,18 @@ import { useEffect, useState } from "react";
 
 export default function Intro() {
   const phrases = [
-    " Backend Developer",
-    " API Specialist",
     " Golang Enthusiast",
+    " Backend Developer",
+    " ML Enthusiast",
+    " Game Developer",
+    " Full Stack Developer",
   ];
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentPhraseIndex((prevIndex) => (prevIndex + 1) % phrases.length);
-    }, 5000); // Change phrase every 5 second
+    }, 3000); // Change phrase every 3 second
 
     return () => clearInterval(interval);
   }, [phrases.length]);
@@ -37,23 +39,25 @@ export default function Intro() {
         <p className="text-xl m-3">
           {" "}
           I&apos;m a
-          <span className="animate bg-[##44D7B6]">
+          <span className="animate text-error font-light">
             <motion.span
               key={currentPhraseIndex}
               initial={{ opacity: 0, y: 20 }}
               animate={{
                 opacity: 1,
-                y: 0,
-                transition: { type: "spring", stiffness: 300, damping: 10 },
+                y: 20,
               }}
-              exit={{ opacity: 0, y: -20, transition: { duration: 0.3 } }}
+              transition={{
+                duration: 0.5,
+                delay: currentPhraseIndex / 50,
+              }}
             >
               {phrases[currentPhraseIndex]}
             </motion.span>
           </span>
         </p>
         <Profiles></Profiles>
-        <button className="btn bg-[#FF4C60] text-white rounded-lg border-0 mt-3">
+        <button className="btn bg-[#FF4C60] text-white rounded-lg border-0 mt-3 hover:text-[#FF4C60]">
           View My Resume
         </button>
       </div>
