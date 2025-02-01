@@ -1,5 +1,7 @@
 import Navbar from "../components/navbar";
-import Profiles from "../components/profileBar";
+import { rubik_normal } from "./font";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import "./globals.css";
 
 export const metadata = {
@@ -9,11 +11,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`antialiased`}>
+    <html lang="en" className="scroll-smooth">
+      <body
+        className={`antialiased dark:bg-[#353353] dark:text-white bg-[#f3f3f9] ${rubik_normal.className}`}
+      >
         <Navbar></Navbar>
-        <Profiles></Profiles>
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
