@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <section id="about" className="dark:bg-[#353353] px-64 py-20">
       <div className="">
-        <h2 className="text-4xl font-bold text-[#5E5C7F]">About Me</h2>
+        <h2 className="text-4xl font-bold text-[#454360]">About Me</h2>
         <div className="divider"></div>
         <div className="flex flex-row gap-2">
           <div className="flex flex-row gap-2 items-center">
