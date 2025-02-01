@@ -1,6 +1,7 @@
 'use client'
 import Profiles from "./profileBar";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Intro() {
@@ -21,10 +22,10 @@ export default function Intro() {
 
     return (
         <section id="intro" className="flex flex-col bg-[#353353] max-w-full items-center justify-center h-screen text-white">
-            <img src="https://jthemes.net/themes/html/bolby/demo/images/avatar-1.svg" className="mb-4"></img>
+            <Image src="https://jthemes.net/themes/html/bolby/demo/images/avatar-1.svg" className="mb-4" alt="avatar"></Image>
             <div className="text-center">
                 <h1 className="mb-2 text-4xl font-bold">Sumit Kumar</h1>
-                <p className="text-xl m-3"> I'm a 
+                <p className="text-xl m-3"> I&apos;m a 
                     <span className="animate bg-[##44D7B6]">
                         <motion.span
                             key={currentPhraseIndex}

@@ -9,21 +9,21 @@ export default function Navbar() {
         <a className="btn btn-ghost text-xl">Sumit Kumar</a>
       </div>
       <div className="navbar-end">
-        <a href="/" className="btn btn-ghost text-md hover:text-[#ffc107] active:text-[#ffc107]">
+        <Link href="/" className="btn btn-ghost text-md hover:text-[#ffc107] active:text-[#ffc107]">
           Home
-        </a>
-        <a href="#about" className="btn btn-ghost text-md hover:text-[#ffc107] active:text-[#ffc107]">
+        </Link>
+        <Link href="#about" className="btn btn-ghost text-md hover:text-[#ffc107] active:text-[#ffc107]">
           About Me
-        </a>
-        <a href="#skills" className="btn btn-ghost text-md hover:text-[#ffc107] active:text-[#ffc107]">
+        </Link>
+        <Link href="#skills" className="btn btn-ghost text-md hover:text-[#ffc107] active:text-[#ffc107]">
           Skills & Projects
-        </a>
-        <a href="#experience" className="btn btn-ghost text-md hover:text-[#ffc107] active:text-[#ffc107]">
+        </Link>
+        <Link href="#experience" className="btn btn-ghost text-md hover:text-[#ffc107] active:text-[#ffc107]">
           Experience
-        </a>
-        <a href="#contact" className="btn btn-ghost text-md hover:text-[#ffc107] active:text-[#ffc107]">
+        </Link>
+        <Link href="#contact" className="btn btn-ghost text-md hover:text-[#ffc107] active:text-[#ffc107]">
           Contact Me
-        </a>
+        </Link>
       </div>
     </div>
     <div className="bg-[#353353] h-0 border-b border-white"></div>

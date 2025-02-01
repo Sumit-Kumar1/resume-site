@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutMe() {
     return (
         <section id="about bg-white">
@@ -7,7 +9,7 @@ export default function AboutMe() {
                 <div className="row">
                     <div className="col-md-3">
                         <div className="text-center text-md-left">
-                            <img src="https://jthemes.net/themes/html/bolby/demo/images/avatar-2.svg" alt="sumit" />
+                            <Image src="https://jthemes.net/themes/html/bolby/demo/images/avatar-2.svg" alt="sumit" />
                         </div>
                         <div className="divider"></div>
                     </div>
