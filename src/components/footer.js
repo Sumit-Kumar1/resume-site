@@ -3,7 +3,7 @@ export default function Footer() {
     const year = d.getFullYear();
 
     return (
-        <footer className="bg-[#353353] w-full text-center text-white py-10">
+        <footer className="bg-[#353353] w-full text-center text-white py-10 dark:border-t">
             <div className="flex flex-row gap-5 justify-center">
                 <p>&copy; {year} Sumit Kumar. All rights reserved.</p>
             </div>

@@ -1,11 +1,11 @@
 export default function Experience() {
   return (
-    <section id="experience" className="dark:bg-[#353353] px-64 py-20">
+    <section id="experience" className="dark:bg-[#353353] lg:px-64 lg:py-20 xs:p-5">
       <h2 className="text-4xl font-bold text-[#454360] dark:text-white">Experience</h2>
       <div className="divider"></div>
 
-      <div className="flex flex-row gap-10">
-        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical border p-[30px] rounded-xl bg-white dark:bg-[#302f4e] shadow-2xl shadow-[#00000040] w-[50%] justify-evenly">
+      <div className="flex md:flex-row md:gap-10 xs:gap-5 xs:flex-col">
+        <ul className="timeline timeline-snap-icon max-xs:timeline-compact timeline-vertical border xs:p-5 md:p-[30px] rounded-xl bg-white dark:bg-[#302f4e] shadow-2xl shadow-[#00000040] md:w-[50%] justify-evenly">
           <li>
             <div className="timeline-middle">
               <svg
@@ -59,7 +59,7 @@ export default function Experience() {
                 Software Engineer Intern
               </div>
             </div>
-            <div className="timeline-content md:mt-32 text-sm text-end px-1">
+            <div className="timeline-content md:mt-32 text-sm text-end px-1 xs:mt-32">
               <p>
                 Learned about Golang and various tools and techs and worked on
                 ZopSmart Technologies Internal products.
@@ -100,7 +100,7 @@ export default function Experience() {
           </li>
         </ul>
 
-        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical border p-[30px] rounded-xl bg-white dark:bg-[#302f4e] shadow-2xl shadow-[#00000040] w-[50%] justify-evenly">
+        <ul className="timeline timeline-snap-icon max-xs:timeline-compact timeline-vertical border xs:p-5 md:p-[30px] rounded-xl bg-white dark:bg-[#302f4e] shadow-2xl shadow-[#00000040] md:w-[50%] justify-evenly">
           <li>
             <div className="timeline-middle">
               <svg
@@ -156,7 +156,7 @@ export default function Experience() {
                 ACM Student Chapter, JUIT Solan
               </div>
             </div>
-            <div className="timeline-content md:mt-32 text-sm text-end px-1">
+            <div className="timeline-content md:mt-32 text-sm text-end px-1 xs:mt-32">
               <p>
                 Worked as a member of ACM Student Chapter, JUIT Solan and Served
                 as Game Dev Head.
