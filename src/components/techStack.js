@@ -9,11 +9,11 @@ import {
 
 export default function TechStack() {
   return (
-    <section id="skills" className="dark:bg-[#353353] px-64 py-20 ">
+    <section id="skills" className="dark:bg-[#353353] lg:px-64 lg:py-20 xs:p-5">
       <h2 className="text-4xl font-bold text-[#454360] dark:text-white">Tech Stack</h2>
       <div className="divider"></div>
 
-      <div className="grid grid-cols-5 gap-5 text-[#BAB9C6] dark:text-gray-400">
+      <div className="grid md:grid-cols-5 md:gap-5 text-[#BAB9C6] dark:text-gray-400 xs:grid-cols-3 xs:gap-2">
         <FaGolang className="text-[100px]" />
         <BiLogoPostgresql className="text-[100px]" />
         <SiHtmx className="text-[100px]" />
